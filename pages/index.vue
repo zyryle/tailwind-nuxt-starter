@@ -5,8 +5,7 @@
 </template>
 
 <script>
-// export default {
-//   name: 'greet',
-//   name: 'greet'
-// }
+export default {
+
+}
 </script>
