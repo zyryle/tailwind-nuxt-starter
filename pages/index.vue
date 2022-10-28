@@ -1,6 +1,9 @@
 <template>
   <div>
-      <Greetings />
+    <MainNav />
+    <HeroSection />
+    <About />
+    <Footer />
   </div>
 </template>
 

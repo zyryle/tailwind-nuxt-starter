@@ -1,16 +1,16 @@
 <template>
-  <div>
-    <nav class="bg-darker-blue">
+  <!-- <div> -->
+    <nav class="bg-darker-blue shadow-md shadow-black">
       <!-- <div class="w-5/6 mx-auto px-4 sm:px-6 lg:px-8"> -->
-      <div class="w-11/12 mx-auto px-4 sm:px-6 lg:px-8 py-1">
-        <div class="flex items-center justify-between h-28">
+      <!-- <div class="w-11/12 mx-auto px-4 sm:px-6 lg:px-8 py-1"> -->
+        <div class="flex items-center justify-between h-28 w-11/12 mx-auto px-4 sm:px-6 lg:px-8 py-1">
           <!-- Logo -->
           <div class="flex">
             <a href="/"><img src="~/static/images/logo-white.png" alt="Workflow logo"></a>
           </div>
           <!-- Nav Links -->
           <div class="flex items-center">
-            <div class="hidden md:block">
+            <div class="hidden big-laptop:block">
               <div class="ml-10 flex items-baseline">
                 <a href="/"
                   class="px-3 py-2 rounded-md text-base font-medium text-off-white bg-gray-900 focus:outline-none focus:text-white focus:bg-gray-700 font-sans-600 font-montserrat">Home</a>
@@ -34,7 +34,7 @@
             </div>
           </div>
 
-          <div class="-mr-2 flex md:hidden">
+          <div class="-mr-2 flex big-laptop:hidden">
             <!-- Mobile menu button -->
             <button @click="toggle"
               class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:bg-gray-700 focus:text-white">
@@ -50,8 +50,8 @@
             </button>
           </div>
         </div>
-      </div>
-      <div :class="[isOpen ? '' : 'hidden', 'md:hidden']">
+      <!-- </div> -->
+      <div :class="[isOpen ? '' : 'hidden', 'big-laptop:hidden']">
         <div class="px-2 pt-2 pb-3 sm:px-3">
           <a href="#"
             class="block px-3 py-2 rounded-md text-base font-medium text-white bg-gray-900 focus:outline-none focus:text-white focus:bg-gray-700">Home</a>
@@ -75,9 +75,9 @@
       </div>
     </nav>
 
-    <header class="bg-white shadow">
+    <!-- <header class="bg-white shadow">
         <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-          <h1 class="text-3xl font-bold leading-tight text-gray-900">Starting Files For Tailwind and Nuxt 2</h1>
+          <h1 class="text-3xl font-bold leading-tight text-gray-900">Dashboard</h1>
         </div>
       </header>
       <main>
@@ -88,8 +88,8 @@
           </div>
           End replace
         </div>
-      </main>
-  </div>
+      </main> -->
+  <!-- </div> -->
 </template>
 
 <script>
